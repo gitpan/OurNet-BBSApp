@@ -1,5 +1,5 @@
 package OurNet::BBSApp;
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 require 5.006;
 
