@@ -1,5 +1,5 @@
 package OurNet::BBSApp;
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 require 5.006;
 
@@ -111,7 +111,7 @@ sub run {
 
     while (1) {
         OurNet::BBSApp::Monitor::process;
-        sleep $self ? $self->{config}{interval} : $Interval;
+        sleep ($self ? $self->{config}{interval} : $Interval);
     }
 }
 

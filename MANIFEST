@@ -2,6 +2,7 @@ MANIFEST
 README
 Changes
 Makefile.PL
+test.pl
 BBSApp.pm
 BBSApp/Arena.pm
 BBSApp/Board.pm
